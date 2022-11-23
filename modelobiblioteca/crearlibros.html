@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Informacion Interbibliotecario</title>
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/crearlibros.css">
+</head>
+<body>
+    <header> <h2>Sistema de informacion Interbibliotecario</h2>
+        <div class="barra">
+            <form action="">
+                <table>
+                    <tr>
+                        <td>
+                            <img class="iconoU" src="../img/icono.png" alt="">
+                        </td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">Perfil</option>
+                                <option value="">ajustes</option>
+                                <option value="">Sobre nosotros</option>
+                                <option value="">Soporte</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>
+                            <a href="../index.html">
+                                <input style="color:black" class="bottomS" type="button" value="salir">
+                            </a>
+                        </td>
+                      </tr>
+                </table>
+            </form>
+        </div>
+    </header>
+    <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>
+
+          <li><a class='dropdown-arrow' href='http://'>Menú</a>
+            <ul class='sub-menus'>
+              <li><a href='../modelobiblioteca/menu.html'>inicio</a></li>
+              <li><a href='../modelobiblioteca/crearlibros.html'>Crear libros</a></li>
+              <li><a href='../modelobiblioteca/entregalibro.html'>Entregar libros </a></li>
+              <li><a href='../modelobiblioteca/solicitarlibros.html'>solicitar libros</a></li>
+            </ul>
+     </nav>
+    <div class="principal">
+        <div class="titulo">
+           <h1 class="ultra">Crear libros</h1> 
+        </div>
+        <div class="contenido">
+            <form action="">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="">Titulo</label>
+                        </td>
+                        <td>
+                            <input type="text" name="" size="60%" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Editorial</td>
+                        <td>
+                            <select name="" id="" size="1%">
+                                <option value="">Altea</option>
+                                <option value="">Piel de Venado</option>
+                                <option value="">Bonaventuriana</option>
+                                <option value="">Arlequín</option>
+                                <option value="">Luna Libros</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Edición</td>
+                        <td>
+                            <input type="text" name="" size="20%" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Área</td>
+                        <td>
+                            <input type="text" name="" size="60%" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>ISBN</td>
+                        <td>
+                            <input type="tel" name="" size="38%" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Número de páginas</label>
+                        </td>
+                        <td>
+                            <input  type="number" name="" id="" min="1">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Estado</td>
+                        <td>
+                            <select name="" id="" size="1%">
+                                <option value="">bueno</option>
+                                <option value="">regular</option>
+                                <option value="">malo</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input class="guardar" type="submit" value="Guardar">
+                        </td>
+                    </tr>
+                </table>
+            </form> 
+        </div>
+    </div>
+    <footer>
+        <h2>© Todos los derechos reservados </h2>
+    </footer>
+</body>
+</html>
